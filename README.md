@@ -59,7 +59,7 @@ This demo shows how to use Istio to route traffic based on URL paths.
 ### Installation
 
 ```bash
-kubectl apply -k base
+kubectl apply -k traffic-routes
 ```
 
 ### Testing

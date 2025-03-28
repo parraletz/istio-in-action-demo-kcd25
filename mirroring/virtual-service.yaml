@@ -11,10 +11,10 @@ spec:
   - route:
     - destination:
         host: nginx-service-v1
-      weight: 80
+      weight: 100
     - destination:
         host: nginx-service-v2
-      weight: 20
+      weight: 0
     mirror:
       host: nginx-service-v2
     mirrorPercentage: 

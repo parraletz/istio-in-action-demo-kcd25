@@ -1,10 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-namespace: demo-kcd-2025-traffic
+namespace: demo-traffic-routes
 
 resources:
   - ../base
   - destination-rule.yaml
   - virtual-service.yaml
   - gateway.yaml 
+  - namespace.yaml
