@@ -192,8 +192,6 @@ kubectl delete -k mirroring
 # Clean up traffic-routes
 kubectl delete -k traffic-routes
 
-# Clean up path-based routing demo
-kubectl delete -k base
 ```
 
 # Remove Istio
